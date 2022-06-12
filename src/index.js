@@ -1,5 +1,5 @@
 import './css/styles.css';
-import { fetchCountries, clearLis,  clearCountry} from "./js/fetchCountries"
+import { fetchCountries, clearList,  clearCountry} from "./js/fetchCountries"
 
 var debounce = require('lodash.debounce');
 
@@ -13,7 +13,7 @@ search.addEventListener("input", debounce(() => {
         fetchCountries(searchParams)
     } else {
         clearCountry()
-        clearLis()
+        clearList()
     }
 }, DEBOUNCE_DELAY))
 
