@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -10,6 +12,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  padding: 30px;
 }
 
 #search-box {
@@ -17,4 +20,84 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+ul{
+  list-style: none;
+  background-image: url("../img/217393_ukraine-flag_reuters.png");
+  background-size: cover;
+}
+.item{
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+.item_svg {
+  height: 50px;
+  width: 100px;
+  margin-right: 20px;
+}
+.item p {
+  font-size: 25px;
+  font-weight: bold;
+    background-color: #2121211e;
+    height: 50px;
+    padding: 0 10px 0 10px;
+}
+
+.country{
+  width: 50%;
+  background-color:#05ff3bac;
+}
+.top{
+  display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.top p {
+  font-size: 50px;
+    font-weight: bold;
+    background-color: #2121211e;
+    height: 75px;
+    padding: 0 10px 0 10px;
+}
+.top .item_svg{
+  height: 75px;
+  width: 150px;
+}
+.bottom{
+  padding: 0 15px 15px 15px;
+  display: block;
+}
+.bottom p {
+  font-size: 25px;
+    font-weight: bold;
+}
+
+.bottom span {
+  font-weight: normal;
+  margin-left: 15px;
+}
+
+.country.ukraine{
+  background-image: url("../img/dd2623c6d96b7cfa.jpg");
+  background-size: cover;
+  width: 700px;
+  height: 400px;
+}
+.ukraine .top p{
+      background-color: #fff70047;
+}
+.ukraine p{
+  color: #059fff;
+}
+.ukraine span {
+  color: #fff700;
+}
+
+.country.govno{
+  width: 1000px;
+  height: 500px;
+  background-image: url("../img/rus/Безназвания.jfif");
+  background-repeat: repeat;
 }
